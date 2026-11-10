@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oriental Phoenix — Full Menu</title>
+  <meta name="description" content="Full menu of Oriental Phoenix with all dishes, categories, generated visuals, and prices." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="menu-page-body">
+  <header class="site-header">
+    <a href="index.html#top" class="brand">
+      <img src="assets/logo.jpg" alt="Oriental Phoenix logo">
+      <span>Oriental Phoenix</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html#story">Story</a>
+      <a href="index.html#signatures">Signatures</a>
+      <a href="index.html#reserve">Reserve</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="btn ghost menu-return" href="index.html">Back to Main</a>
+  </header>
+
+  <main class="full-menu-main" id="top">
+    <section class="full-menu-hero">
+      <p class="eyebrow">Full Menu</p>
+      <h1>All Dishes in One Place</h1>
+      <p class="lead">Browse all categories, search dishes, and jump quickly across the complete Oriental Phoenix menu.</p>
+      <div class="menu-quick-actions">
+        <a class="btn ghost" href="https://order.toasttab.com/online/oriental-phoenix-104-58-ave-se-bay-80" target="_blank" rel="noreferrer">Order Online</a>
+        <a class="btn ghost" href="https://www.facebook.com/OrientalPhoenix58Ave/" target="_blank" rel="noreferrer">Facebook</a>
+      </div>
+    </section>
+
+    <section class="full-menu-controls">
+      <label class="search-wrap" for="menuSearch">Search menu</label>
+      <input id="menuSearch" type="search" placeholder="Try: pho, chicken, satay, dessert" autocomplete="off" />
+      <div class="menu-tabs" id="fullMenuTabs" role="tablist"></div>
+      <p id="menuResultCount" class="menu-result-count" aria-live="polite"></p>
+    </section>
+
+    <section id="fullMenuContent" class="full-menu-content"></section>
+    <p class="menu-disclaimer">
+      Disclosure (Canada): Dish images on this website are AI-generated for illustration and marketing purposes. Actual presentation, color, ingredients, and portion size may vary in restaurant service.
+    </p>
+  </main>
+
+  <footer>
+    <img src="assets/logo.jpg" alt="">
+    <p>© 2026 Oriental Phoenix Vietnamese Restaurant. Full menu page.</p>
+  </footer>
+
+  <script src="menu-data.js"></script>
+  <script src="menu-page.js"></script>
+</body>
+</html>

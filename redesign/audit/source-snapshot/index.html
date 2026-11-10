@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oriental Phoenix — Vietnamese Restaurant in Calgary</title>
+  <meta name="description" content="Oriental Phoenix is a family Vietnamese restaurant in Calgary, serving Southern Vietnamese recipes, scratch-made broths, sauces and marinades since 1987." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261031-1" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scrollbar"><span></span></div>
+
+  <header class="site-header">
+    <a href="#top" class="brand">
+      <img src="assets/logo.jpg" alt="Oriental Phoenix logo">
+      <span>Oriental Phoenix</span>
+    </a>
+    <div class="header-service-actions" aria-label="Ordering options">
+      <a class="btn service-btn delivery magnetic" href="https://www.skipthedishes.com/Oriental-phoenix-58-ave" target="_blank" rel="noreferrer">Delivery</a>
+      <a class="btn service-btn gift magnetic" href="https://order.toasttab.com/egiftcards/oriental-phoenix-104-58-ave-se-bay-80?toast_sg=99c0e398-2d63-4a33-ad51-fff1d21e1cb4&amp;toast_ss=df8955bc-7f1d-4eeb-910d-b81f23667108&amp;toast_src=website_link&amp;utm_source=undefined&amp;utm_content=online--oriental-phoenix-104-58-ave-se-bay-80&amp;utm_medium=toast_sites" target="_blank" rel="noreferrer">Gift Certificate</a>
+      <a class="btn service-btn pickup magnetic" href="https://order.toasttab.com/online/oriental-phoenix-104-58-ave-se-bay-80" target="_blank" rel="noreferrer">Self-Pickup</a>
+    </div>
+    <nav class="nav">
+      <a href="#story">Story</a>
+      <a href="menu.html">Full Menu</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu">Menu</button>
+  </header>
+
+  <main id="top">
+    <section class="hero panel" data-theme="dark">
+      <div class="hero-bg parallax" data-speed="-0.22"></div>
+      <div class="grain"></div>
+      <div class="hero-orb parallax" data-speed="0.18"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Calgary Vietnamese Restaurant · Since 1987</p>
+        <h1>Southern Vietnamese recipes, served with Calgary warmth.</h1>
+        <p class="lead"><strong>Rooted in family. Refined for today. Served with soul.</strong></p>
+        <p class="lead lead-secondary"><strong>Authentic Vietnamese cooking shaped by the Huynh family’s 30+ year Calgary story.</strong></p>
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="#reserve">Book a Table</a>
+          <a class="btn ghost magnetic" href="menu.html">View Full Menu</a>
+          <a class="btn ghost magnetic" href="https://order.toasttab.com/online/oriental-phoenix-104-58-ave-se-bay-80" target="_blank" rel="noreferrer">Order Online</a>
+        </div>
+      </div>
+      <div class="floating-card reveal">
+        <span>Open today</span>
+        <strong>104 58 Ave SE #80</strong>
+        <small>Calgary, Alberta</small>
+      </div>
+    </section>
+
+    <section id="story" class="story section-grid">
+      <div class="story-copy reveal">
+        <p class="eyebrow">The Origin</p>
+        <h2>Made from Mom’s recipes.</h2>
+        <p>Oriental Phoenix began in Calgary in 1987, inspired by grandmother Kim Truong and the family’s Southern Vietnamese roots. Every broth, sauce and marinade is still built from scratch, slowly layered for depth and comfort.</p>
+        <p>The food carries the brightness of Southern Vietnam — seafood, rice noodles, herbs, lemongrass, grilled meats and broths shaped by French, Chinese, Indian and American influences.</p>
+      </div>
+      <div class="stacked-photos">
+        <img class="reveal parallax" data-speed="0.08" src="assets/OP_Images_600x600_Green6.jpg" alt="Spicy satay noodle soup">
+        <img class="reveal parallax" data-speed="-0.10" src="assets/OP_Images_600x600_Green18.jpg" alt="Spring rolls">
+      </div>
+    </section>
+
+    <section id="reserve" class="reserve">
+      <div class="reserve-card reveal">
+        <div>
+          <p class="eyebrow">Reservation</p>
+          <h2>Book a table for lunch, dinner or a private event.</h2>
+          <p>For urgent requests, call the restaurant directly.</p>
+        </div>
+        <form id="reserveForm" novalidate>
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="(403) 000-0000" required></label>
+          <label>Date<input type="date" name="date" required></label>
+          <label>Time<input type="time" name="time" required></label>
+          <label>Guests<input type="number" name="guests" min="1" max="20" placeholder="2" required></label>
+          <label class="full">Comment<textarea name="comment" placeholder="Allergies, occasion, seating preference"></textarea></label>
+          <button class="btn primary full magnetic" type="submit">Request Reservation</button>
+          <p id="reserveFormStatus" class="reserve-form-status full" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Visit Us</p>
+        <h2>Oriental Phoenix</h2>
+        <p>104 58 Ave SE #80, Calgary, AB T2H 0N7</p>
+        <p>Phone: <a href="tel:+14032538189">403-253-8189</a></p>
+        <p>Hours: Mon–Thu 11AM–7PM · Fri 11AM–8PM · Sat 12PM–8PM · Sun Closed</p>
+        <div class="contact-actions">
+          <a class="btn ghost" href="https://orientalphoenix.net/" target="_blank" rel="noreferrer">Website</a>
+          <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Oriental+Phoenix+104+58+Ave+SE+Calgary" target="_blank" rel="noreferrer">Map</a>
+          <a class="btn ghost" href="https://order.toasttab.com/online/oriental-phoenix-104-58-ave-se-bay-80" target="_blank" rel="noreferrer">Order Online</a>
+          <a class="btn ghost" href="https://www.facebook.com/OrientalPhoenix58Ave/" target="_blank" rel="noreferrer">Facebook</a>
+          <a class="btn ghost" href="https://www.instagram.com/orientalphoenixyyc/" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
+      </div>
+      <div class="map-shell reveal">
+        <iframe title="Oriental Phoenix map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=104%2058%20Ave%20SE%20%2380%20Calgary%20AB&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.jpg" alt="">
+    <p>© 2026 Oriental Phoenix Vietnamese Restaurant. Website concept prototype.</p>
+  </footer>
+
+  <script src="menu-data.js"></script>
+  <script src="script.js?v=20261031-1"></script>
+</body>
+</html>
