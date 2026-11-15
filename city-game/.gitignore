@@ -1,0 +1,13 @@
+# Godot 4
+.godot/
+/android/
+
+# Рабочие файлы
+.dream-loop/
+export/
+*.avi
+*.mp4
+*.mov
+
+# macOS
+.DS_Store
